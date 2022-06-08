@@ -160,24 +160,27 @@ h2{
     align-items: center;
     justify-content: center;
     height: 350px;
-    background: rgb(100, 100, 100);
+    background: #ffffff;
     padding: 125px;
 }
 
 .box-global{
     background: #3882F6;
     border-radius: 15px;
-    height: 150px;
+    height: 250px;
     width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    
 }
 
 .box-global .left{
-    border: 3px solid rgb(251, 255, 0);
+    color: white;
     
 }
-
-
+/*propiedades de P para que no me cambie todo el texto en general
+sino que cambie a negrita el de arriba y normal abajo*/
 .box-global .buton{
     border: 2px solid white;
     width: 150px;
@@ -187,4 +190,27 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 800;
+}
+
+.uno{
+    font-size: 36px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dos{
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E5E7EB;
+}
+
+/* Five part */
+.footer{
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
 }
