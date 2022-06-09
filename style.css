@@ -9,7 +9,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* First part */
+/* HEADER */
 .header{
     background: #1F2937;
     display: flex;
@@ -18,12 +18,15 @@ body{
     padding-top: 5px;
     height: 600px;
 }
-
-.top{
+.nav-header{
     display: flex;
     justify-content: space-between;
     padding: 10px 0 120px 0;
     margin: 0 12%;
+}
+.nav-header-menu-items{
+    display: flex;
+    justify-content: flex-end;
 }
 
 li, a, ul{
@@ -40,14 +43,14 @@ h1{
     color: #F9FAF8;
 }
 
-.bot{
+.header-main-content{
     display: flex;
     justify-content: space-between;
     padding: 0 12%;
 
 }
 
-.cuadrado{
+.header-main-content-image{
     height: 250px;
     width: 700px;
     background: grey;
@@ -59,7 +62,7 @@ h1{
     color: whitesmoke;
 
 }
-.left-content{
+.header-main-content-text{
     height: 300px;
     width: 700px;
 }
@@ -69,11 +72,11 @@ h2{
     font-weight: 800; /*extra bold*/
 }
 
-.left-content p{
+.header-main-content-text p{
     font-size: 18px;
 }
 
-.boton{
+.header-signup-buton{
     background: #3882F6;
     width: 130px;
     height: 40px;
@@ -83,9 +86,9 @@ h2{
     align-items: center;
     justify-content: center;
 }
-/* Second part */
 
-.content{
+/* MAIN CONTENT */
+.main-content{
     background: white;
     display: flex;
     flex-direction: column;
@@ -94,7 +97,7 @@ h2{
     height: 500px;
 }
 
-.content h2{
+.main-content h2{
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -103,28 +106,28 @@ h2{
     color: #1F2937;
 }
 
-.cube{
+.main-content-container-item-image{
     height: 150px;
     width: 150px;
     border: 4px solid #3882F6;
     border-radius: 15px;
 }
 
-.cube-text{
+.main-content-container{
     display: flex;
     justify-content: center;
     padding: 50px 0 10px 0;
     gap: 50px;
 }
 
-.x .text{
+.main-content-container-item-text, .text{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Tree part */
-.quote{
+/* CONTAINER TESTIMONIAL QUOTE */
+.container-testimonial-quote{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,17 +138,17 @@ h2{
     
 }
 
-.text-one{
+.container-testimonial-quote-content-text{
     font-weight: 300;
     font-style: italic;
 }
 
-.text-two{
+.container-testimonial-quote-content-text-autor{
     text-align: end;
     font-weight: 800;
 }
 
-.center{
+.container-testimonial-quote-content{
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -153,9 +156,9 @@ h2{
     color: #1F2937;
 }
 
-/* Four part */
+/* SING UP CONTAINER */
 
-.final-part{
+.singup-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,7 +167,7 @@ h2{
     padding: 125px;
 }
 
-.box-global{
+.singup-container-content{
     background: #3882F6;
     border-radius: 15px;
     height: 250px;
@@ -175,13 +178,12 @@ h2{
    
 }
 
-.box-global .left{
+.singup-container-content .singup-container-content-text{
     color: white;
     
 }
-/*propiedades de P para que no me cambie todo el texto en general
-sino que cambie a negrita el de arriba y normal abajo*/
-.box-global .buton{
+
+.singup-container-content .singup-container-content-button{
     border: 2px solid white;
     width: 150px;
     height: 35px;
@@ -193,18 +195,18 @@ sino que cambie a negrita el de arriba y normal abajo*/
     font-weight: 800;
 }
 
-.uno{
+.singup-container-content-text-up{
     font-size: 36px;
     font-weight: 800;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.dos{
+.singup-container-content-text-down{
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #E5E7EB;
 }
 
-/* Five part */
+/* FOOTER */
 .footer{
     background: #1F2937;
     color: #E5E7EB;
